@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        master:
+            jdbc-url: jdbc:mysql://47.101.160.138:3306/abodb
+            username: root
+            password: 013250622062
+            driver-class-name: com.mysql.jdbc.Driver
+        slave1:
+            jdbc-url: jdbc:mysql://68.168.131.49:3306/abodb
+            username: abo
+            password: 013250622062
+            driver-class-name: com.mysql.jdbc.Driver
